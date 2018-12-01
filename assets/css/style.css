@@ -97,7 +97,7 @@
 .container { width: 100%; }
 
 .wrapper {
-  width: 71.85%;
+  width: 96.89%;
   margin: 0 auto;
   max-width: 1500px;
 }
@@ -124,4 +124,115 @@ a {
   display: inline-block;
   text-decoration: none;
   outline: none;
+}
+
+/* HEADER */
+header {
+  background-color: #faf8fd;
+}
+
+header .wrapper {
+  width: 96.89%;
+  margin: 0 auto;
+}
+
+.header-left {
+  padding: 14px 0 8px;
+  display: inline-block;
+}
+
+.hamburger {
+  display: inline-block;
+}
+
+.hamburger nav {
+  display: none;
+}
+
+.ham {
+  color: #5d7e84;
+  font-size: 16px;
+}
+
+.hamburger:hover nav {
+  display: block;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: #999;
+}
+
+.hamburger:hover nav li {
+  display: block;
+  text-align: center;
+  border-bottom: 1px solid #007b83;
+  padding-bottom: 5px;
+}
+
+.hamburger:hover nav li:last-child {
+  border-bottom: none;
+}
+
+.hamburger:hover nav a {
+  color: #2d2c38;
+}
+
+.hamburger:hover nav a:hover {
+  color: #007bb3;
+}
+
+
+h1 {
+  width: 36%;
+  margin-left: 12px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+h1 a {
+  text-indent: -9999px;
+}
+
+h1 img {
+  float: right;
+}
+
+
+.header-right {
+  padding: 4px 0 5px;
+  display: inline-block;
+  float: right;
+}
+
+.header-right a:first-child {
+  padding: 14px 26px 14px;
+  background-color: #dce9f2;
+  color: #eef4fd;
+  font-size: 16px;
+  font-weight: 600;
+  border-radius: 4px;
+}
+
+.header-right a:first-child:hover {
+  background-color: #267986;
+  color: #e3f6fa;
+}
+
+.header-right a:last-child {
+  box-sizing: border-box;
+  padding: 13px 26px 12px;
+  border: 1px solid #82999b;
+  margin-left: 9px;
+  border-radius: 4px;
+  color: #5a8182;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.header-right a:last-child:hover {
+  background-color: #5a8182;
+  color: #e3f6fa;
 }
