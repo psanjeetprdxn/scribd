@@ -276,3 +276,26 @@ h1 img {
   background-color: #5a8182;
   color: #e3f6fa;
 }
+
+/* BANNER */
+.banner {
+  position: relative;
+}
+
+.banner-content {
+  width: 100%;
+  position: absolute;
+  top: 86px;
+  left: 50%;
+  right: 50%;
+  transform: translateX(-50%);
+  text-align: center;
+}
+
+.banner-content a {
+  margin-top: 30px;
+}
+
+.banner-content span {
+  display: block;
+}
