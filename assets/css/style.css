@@ -126,6 +126,46 @@ a {
   outline: none;
 }
 
+/* COMMON CLASSES */
+
+.section-header {
+  font-size: 30px;
+  color: #272e3f;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+.section-description {
+  margin-top: 21px;
+  color: #5D6877;
+  font-size: 20px;
+  font-weight: 500;
+  letter-spacing: 0.6px;
+  word-spacing: -1px;
+}
+
+.free-trial {
+  padding: 13px 30px 11px;
+  color: #eef4fd;
+  background-color: #127c84;
+  font-size: 16px;
+  font-weight: 600;
+  border-radius: 4px;
+}
+
+.cancel {
+  margin-top: 7px;
+  color: #5b6575;
+  font-size: 15px;
+  font-weight: 600;
+  letter-spacing: 0.3px;
+}
+
+.free-trial:hover {
+  background-color: #eef4fd;;
+  color: #127c84;
+}
+
 /* HEADER */
 header {
   background-color: #faf8fd;
