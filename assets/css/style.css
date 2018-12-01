@@ -299,3 +299,56 @@ h1 img {
 .banner-content span {
   display: block;
 }
+
+/* CURIOUS */
+.curious {
+  padding: 60px 0 30px;
+  background-color: #fffdff;
+  text-align: center;
+}
+
+.curious .wrapper {
+  width: 61.586%;
+  margin: 0 auto;
+}
+
+.books {
+  padding-top: 32px;
+}
+
+.books li {
+  width: 13.88%;
+  display: inline-block;
+}
+
+.books li {
+  margin: 0 calc(0.46% - 5px) 0.46% 0;
+}
+
+.books li:nth-child(7n) { margin-right: 0; }
+
+.books li:hover {
+  -webkit-box-shadow: 0px 0px 21px 0px rgba(9,25,26,0.68);
+  -moz-box-shadow: 0px 0px 21px 0px rgba(9,25,26,0.68);
+  box-shadow: 0px 0px 21px 0px rgba(9,25,26,0.68);
+}
+
+.books-types li {
+  display: inline-block;
+}
+
+.books-types li:nth-child(1) span:first-child::before {
+  content: '\f518';
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+}
+.books-types li:nth-child(2) span:first-child::before {
+  content: '\f58f';
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+}
+.books-types li:nth-child(3) span:first-child::before {
+  content: '\f518';
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+}
