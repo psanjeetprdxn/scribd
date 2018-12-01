@@ -365,3 +365,53 @@ h1 img {
   text-align: center;
   transform: translateX(-50%);
 }
+
+/* MEMBER */
+.member {
+  background-color: #fffdff;
+  text-align: center;
+}
+
+.member .wrapper {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.member ul { padding-top: 42px; }
+
+.member li {
+  width: 25%;
+  display: inline-block;
+  margin-right: -5px;
+}
+
+.member li:last-child { margin-right: 0; }
+
+.member figure {
+  width: 40%;
+  margin: 0 auto;
+}
+
+.member li:nth-child(3) figure { width: 58%; }
+.member li:nth-child(4) figure { width: 51%; }
+
+.member figure img { width: 100%; }
+
+.member h4 {
+  margin-top: 10px;
+  color: #283343;
+  font-size: 21px;
+  font-weight: 800;
+
+}
+
+.member li a > span {
+  width: 80%;
+  margin: 0 auto;
+  display: block;
+  margin-top: 4px;
+  color: #b6bbbf;
+  font-style: italic;
+  font-size: 16px;
+  line-height: 1.6;
+}
