@@ -352,3 +352,16 @@ h1 img {
   font-family: "Font Awesome 5 Free";
   font-weight: 900;
 }
+
+/* INFORMATION */
+.information {
+  position: relative;
+}
+
+.information .information-content {
+  position: absolute;
+  top: 53px;
+  left: 50%;
+  text-align: center;
+  transform: translateX(-50%);
+}
